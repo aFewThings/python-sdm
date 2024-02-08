@@ -1,0 +1,20 @@
+﻿Filename,Variable_name,Units,Notes,Other details
+AWTtrain_po.csv,siteid,number (site code),"Site identifier, unique per site",
+AWTtrain_po.csv,spid,character and number (species code),"Species identifier, unique per species. All 40 species in this file.",
+AWTtrain_po.csv,x,"meters. Coordinate reference system: UTM MGA zone 55, spheroid grs1980, datum GDA94 ",x location,
+AWTtrain_po.csv,y,"meters. Coordinate reference system: UTM MGA zone 55, spheroid grs1980, datum GDA95",y location,
+AWTtrain_po.csv,occ,"number (""1"" represents species presence)",Species occurrence,
+AWTtrain_po.csv,group,character - word for group,Biological group: bird or plant,
+AWTtrain_po.csv,bc01,˚C,Annual mean temperature,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc04,number (dimensionless index),Temperature seasonality,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc05,˚C,Max. temperature of warmest period,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc06,˚C,Min. temperature of coldest period,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc12,mm,Annual precipitation,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc15,number (dimensionless index),Precipitation seasonality,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc17,mm,Precipitation of driest quarter,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc20,MJ m-2 day-1,Annual mean solar radiation,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc31,number (dimensionless index),Moisture index seasonality,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,bc33,number (dimensionless index),Mean moisture index of lowest quarter MI,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,slope,percent,Mean slope (derived from 9 second spatial resolution elevation data),Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,topo,number (dimensionless index),Topographic position,Environment/AWT/01_metadata_AWT_environment
+AWTtrain_po.csv,tri,number (dimensionless index),Terrain ruggedness index,Environment/AWT/01_metadata_AWT_environment

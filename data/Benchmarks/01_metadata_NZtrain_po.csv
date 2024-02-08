@@ -1,0 +1,20 @@
+﻿Filename,Variable_name,Units,Notes,Other details
+NZtrain_po.csv,siteid,number (site code),"Site identifier, unique per site",
+NZtrain_po.csv,spid,character and number (species code),"Species identifier, unique per species. All 52 species in this file. ",
+NZtrain_po.csv,x,"meters. Coordinate reference system: New Zealand Map Grid (NZMG), Datum: NZGD49 (New Zealand Geodetic Datum 1949), Ellipsoid: International 1924",x location,
+NZtrain_po.csv,y,"meters. Coordinate reference system: New Zealand Map Grid (NZMG), Datum: NZGD49 (New Zealand Geodetic Datum 1949), Ellipsoid: International 1925",y location,
+NZtrain_po.csv,occ,"number (""1"" represents species presence)",Species occurrence,
+NZtrain_po.csv,group,character - word for group,Biological group: plant (only one group for this region),
+NZtrain_po.csv,age,number (category),soil parent material: age since last major rejuvenation; categorical,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,deficit,kPa,mean October vapor pressure deficit at 0900 hours,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,dem,m,digital elevation model,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,hillshade,number (dimensionless index),surrogate for slope and aspect,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,mas,MJm^-2 day^-1 * 100,mean annual solar radiation,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,mat,°C * 10,mean annual temperature,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,r2pet,number (dimensionless index),average monthly ratio of potential evapotranspiration,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,rain,Mm,average annual rainfall,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,slope,degrees,slope,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,sseas,number (dimensionless index),solar radiation seasonality,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,toxicats,number (category),toxic cations in soil; categorical,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,tseas,number (dimensionless index),temperature seasonality,Environment/NZ/01_metadata_NZ_environment
+NZtrain_po.csv,vpd,kPa,annual vapor pressure deficit,Environment/NZ/01_metadata_NZ_environment

@@ -1,0 +1,18 @@
+﻿Filename,Variable_name,Units,Notes,Other details
+SAtrain_po.csv,siteid,character and number (site code),"Site identifier, unique per site",
+SAtrain_po.csv,spid,character and number (species code),"Species identifier, unique per species. All 30 species in this file.",
+SAtrain_po.csv,x,decimal degree. Coordinate reference system: unprojected,longitude,
+SAtrain_po.csv,y,decimal degree. Coordinate reference system: unprojected,latitude,
+SAtrain_po.csv,occ,"number (""1"" represents species presence)",Species occurrence,
+SAtrain_po.csv,group,character - word for group,Biological group: plant (only one group for this region),
+SAtrain_po.csv,sabio1,˚C*10,annual mean temperature,Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio2,˚C*10,mean diurnal range (mean of monthly (max temp - min temp)),Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio4,number (dimensionless index),temperature seasonality (standard deviation *100),Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio5,˚C*10,max temperature of warmest month,Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio6,˚C*10,min temperature of coldest month,Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio7,˚C*10,temperature annual range,Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio8,˚C*10,mean temperature of wettest quarter ,Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio12,mm,annual precipitation,Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio15,number (dimensionless index),precipitation seasonality (coefficient of variation),Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio17,mm,precipitation of driest quarter,Environment/SA/01_metadata_SA_environment
+SAtrain_po.csv,sabio18,mm,precipitation of warmest quarter,Environment/SA/01_metadata_SA_environment

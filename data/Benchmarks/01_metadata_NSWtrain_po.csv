@@ -1,0 +1,20 @@
+﻿Filename,Variable_name,Units,Notes,Other details
+NSWtrain_po.csv,siteid,character and number (site code),"Site identifier, unique per site",
+NSWtrain_po.csv,spid,character and number (species code),"Species identifier, unique per species. All 54 species in this file.",
+NSWtrain_po.csv,x,decimal degree. Coordinate reference system: unprojected,longitude,
+NSWtrain_po.csv,y,decimal degree. Coordinate reference system: unprojected,latitude,
+NSWtrain_po.csv,occ,"number (""1"" represents species presence)",Species occurrence,
+NSWtrain_po.csv,group,character - code for group,Biological group: ba = bats; db = diurnal birds; nb = nocturnal birds; ot = open-forest trees; ou = open-forest understorey plants; rt = rainforest trees; ru = rainforest understorey plants; sr = small reptiles,
+NSWtrain_po.csv,cti,number (dimensionless index),compound topographic index,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,disturb,number (ordinal),"disturbance (clearing, logging etc)",Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,mi,number (dimensionless index),moisture index.,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,rainann,Mm,mean annual rainfall,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,raindq,Mm,mean rainfall of the driest quarter,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,rugged,number (dimensionless index),ruggedness,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,soildepth,m *1000,mean soil depth,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,soilfert,number (ordinal),soil fertility,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,solrad,MJm-2 day-1 * 10,annual mean solar radiation,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,tempann,°C * 10,annual mean temperature,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,tempmin,°C * 10,minimum temperature of the coldest month,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,topo-,m,topographic position,Environment/NSW/01_metadata_NSW_environment
+NSWtrain_po.csv,vegsys,number (category),"broad vegetation type, categorical",Environment/NSW/01_metadata_NSW_environment

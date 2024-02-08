@@ -1,0 +1,18 @@
+﻿Filename,Variable_name,Units,Notes,Other details
+CANtrain_po.csv,siteid,number (site code),"Site identifier, unique per site",
+CANtrain_po.csv,spid,character and number (species code),"Species identifier, unique per species. All 20 species in this file.",
+CANtrain_po.csv,x,"decimal degrees. Coordinate reference system: unprojected, WGS84",longitude,
+CANtrain_po.csv,y,"decimal degrees. Coordinate reference system: unprojected, WGS85",latitude,
+CANtrain_po.csv,occ,"number (""1"" represents species presence)",Species occurrence,
+CANtrain_po.csv,group,character - word for group,Biological group: bird (only one group for this region),
+CANtrain_po.csv,alt,m,Digital elevation,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,asp2,number (dimensionless unit),Aspect – ranges from -1 to 1 (sin transformation),Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,ontprec,mm,Annual Precipitation,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,ontprec4,mm,April precipitation,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,ontprecsd,number (dimensionless unit),Precipitation Seasonality,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,ontslp,degrees,Slope,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,onttemp,˚C * 10,Annual mean temperature,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,onttempsd,number (dimensionless unit),Temperature standard deviation,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,onttmin4,˚C * 10,April temperature,Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,ontveg,number (dimensionless unit),"Vegetation, from Ontario Land Cover Database (OLC) vegetation map, derived from a mosaic of Landsat images.",Environment/CAN/01_metadata_CAN_environment
+CANtrain_po.csv,watdist,m,Distance from Hudson Bay,Environment/CAN/01_metadata_CAN_environment

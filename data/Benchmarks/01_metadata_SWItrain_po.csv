@@ -1,0 +1,20 @@
+﻿Filename,Variable_name,Units,Notes,Other details
+SWItrain_po.csv,siteid,number (site code),"Site identifier, unique per site",
+SWItrain_po.csv,spid,character and number (species code),"Species identifier, unique per species. All 30 species in this file. ",
+SWItrain_po.csv,x,"meters. Coordinate reference system: Transverse, spheroid Bessel but with a constant shift applied",x location,
+SWItrain_po.csv,y,"meters. Coordinate reference system: Transverse, spheroid Bessel but with a constant shift applied",y location,
+SWItrain_po.csv,occ,"number (""1"" represents species presence)",Species occurrence,
+SWItrain_po.csv,group,character - word for group,Biological group: tree (only one group for this region),
+SWItrain_po.csv,bcc,% cover,broadleaved continuous cover,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,calc,number (binary category),bedrock strictly calcareous vs other type (categorical),Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,ccc,% cover,coniferous continuous cover,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,ddeg,°C * days,growing degree-days above the threshold of 0°C,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,nutri,D mval/cm2,soil nutrients index,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,pday,ndays,number of days with rainfall > 1 mm,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,precyy,mm,average yearly precipitation sum,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,sfroyy,days,summer frost frequency – number of days,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,slope,degrees x 10,slope,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,sradyy,kJm-2day-1 ,potential yearly global radiation (daily average),Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,swb,mm,site water balance,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,tavecc,°C,average temperature of the coldest month,Environment/SWI/01_metadata_SWI_environment
+SWItrain_po.csv,topo,number (dimensionless index),topographic position,Environment/SWI/01_metadata_SWI_environment
