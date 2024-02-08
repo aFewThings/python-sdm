@@ -7,6 +7,10 @@ I modified some parts of the code to make it work with my purpose.
 Major updates are:
 - Adding traditional SDMs (statistical models, and machine learning models) and deep neural networks (DNNs)
 - Adding Benchmark dataset (https://journals.ku.edu/jbi/article/view/13384) and custom dataset (environmental data of South Korea, and species occurrence data from GBIF)
+  - https://osf.io/kwc4v/
+  - https://www.worldclim.org/data/worldclim21.html
+  - http://due.esrin.esa.int/page_globcover.php
+  - https://www.gbif.org/
 - Random sampling pseudo-absences using exclusion buffers based on environmental rasters
 - Training and testing SDMs with presence-only (PO) and presence-absence (PA) datasets on a conventional binary classification task.
 
